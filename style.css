@@ -1,81 +1,107 @@
-*{
-  box-sizing:border-box;
-  
+/*  */
+* {
+  box-sizing: border-box;
 }
-body{
-  font-family: 'Open Sans', sans-serif;
-  margin:0;
-  padding:3rem;
-  background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("https://wallpapercave.com/wp/wp4712646.jpg");
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 3rem;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://wallpapercave.com/wp/wp4712646.jpg");
   background-repeat: no-repeat;
-  background-size:cover;
- color:#002456;
- 
+  background-size: cover;
+  color: #002456;
+}
+main {
+  max-width: 600px;
+  min-width: 300px;
+  width: 90%;
+  margin: 0 auto;
+}
+p {
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 
-h1{
-font-size:3.5rem;
-  text-align:center;
+h1 {
+  font-size: 3.5rem;
+  text-align: center;
 }
-label{
-  margin:0.5rem;
-  font-size:1.1rem;
-  
-  font-weight:700;
-}
-#description{
-  font-size:1.2rem;
-   
+label {
+  display: block;
+  margin: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 700;
 }
 
-#name-label, #email-label, #number-label{
-  font-size:1.5rem;
-  
-    font-weight:700;
-  
+#name-label,
+#email-label,
+#number-label {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
-#name, #email, #number{
-  padding:1rem;
-  width:90%;
-  font-size:1rem;
-  border-radius:2rem;
-  background-color:#fbf0f2;
-  border:none;
-  margin:.5rem;
+#name,
+#email,
+#number {
+  padding: 1rem;
+  width: 90%;
+  font-size: 1rem;
+  border-radius: 2rem;
+  background-color: #fbf0f2;
+  border: none;
+  margin: 0.5rem;
 }
 #continent {
-  font-size:1.3rem;
-  font-weight:400;
-;
+  font-size: 1.3rem;
+  font-weight: 400;
 }
-select{
-  background-color:#fbf0f2;
-   padding:.5rem;
-  border-radius:1rem;
-   font-size:1rem;
-  border:none;
-  
+select {
+  background-color: #fbf0f2;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  border: none;
 }
-option{
-  background-color:#fbf0f2;
+option {
+  background-color: #fbf0f2;
+}
+fieldset {
+  border: 1px solid lightpink;
+}
+textarea {
+  width: 80%;
+  font-size: 1.2rem;
+  background-color: #fbf0f2;
+}
+#textarea p {
+  font-size: 1.5rem;
+}
+button {
+  box-shadow: 0 3px 2px 2px #000;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  margin: 1.5rem auto;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 7rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #f797a9;
+}
+button:focus,
+button:active {
+  transform: translateY(3px);
 }
 
-textarea{
-  width:80%;
-  font-size:1.2rem;
-  background-color:#fbf0f2;
+footer {
+  margin-top: 50px;
+  font-size: 15px;
+  text-align: center;
 }
-#textarea p{
-  font-size:1.5rem;
-  
-}
-button{
-  border-radius:2rem;
-  padding:1rem;
-  width:7rem;
-  border:none;
-  font-size:1rem;
-  font-weight:bold;
-  background-color:#fbf0f2;
-  margin-top:1rem;
+
 }
